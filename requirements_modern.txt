@@ -1,0 +1,35 @@
+# Modern DDPG Requirements (JAX-based)
+# High-performance, low-level implementation
+
+# Core ML framework - JAX for maximum performance
+jax>=0.4.0
+jaxlib>=0.4.0
+
+# Neural networks - Flax for modern JAX integration
+flax>=0.7.0
+
+# Optimization - Optax for advanced optimizers
+optax>=0.1.0
+
+# Environment - Modern Gymnasium
+gymnasium>=0.29.0
+
+# Box2D environments (for LunarLander, BipedalWalker)
+gymnasium[box2d]>=0.29.0
+
+# MuJoCo environments (for Humanoid, HalfCheetah)
+gymnasium[mujoco]>=0.29.0
+
+# Logging and monitoring
+tensorboardX>=2.6.0
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0
+mypy>=1.0.0
+flake8>=5.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.64.0
+matplotlib>=3.6.0
